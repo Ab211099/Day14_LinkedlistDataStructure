@@ -6,13 +6,12 @@
         {
             Console.WriteLine("Hello, World!");
 
-            UC6 list = new UC6();
+            UC7 list = new UC7();
             list.AddEnd(56);
             list.AddEnd(30);
             list.AddEnd(70);
-            list.DeleteLastNode();
-            list.display();
-            
+            list.Search(30);
+          
         }
     }
 }
