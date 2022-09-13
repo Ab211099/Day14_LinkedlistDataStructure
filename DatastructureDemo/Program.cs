@@ -6,11 +6,11 @@
         {
             Console.WriteLine("Hello, World!");
 
-            UC2 list = new UC2();
+            UC3 list = new UC3();
 
-            list.Addfirst(70);
-            list.Addfirst(30);
-            list.Addfirst(56);
+            list.AddEnd(56);
+            list.AddEnd(30);
+            list.AddEnd(70);
             list.display();
         }
     }
