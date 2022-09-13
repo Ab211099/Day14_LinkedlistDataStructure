@@ -6,11 +6,11 @@
         {
             Console.WriteLine("Hello, World!");
 
-            LinkedList list = new LinkedList();
+            UC2 list = new UC2();
 
-            list.Add(56);
-            list.Add(30);
-            list.Add(70);
+            list.Addfirst(70);
+            list.Addfirst(30);
+            list.Addfirst(56);
             list.display();
         }
     }
